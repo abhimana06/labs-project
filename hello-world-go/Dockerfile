@@ -5,7 +5,7 @@ FROM quay.io/bitnami/golang:1.17.7
 COPY src/hello-world.go /go/hello-world.go
 
 # Set the default environment variables
-ENV MESSAGE "Welcome! You can change this message by editing the MESSAGE environment variable."
+ENV MESSAGE "Welcome! This is the new environment Variable"
 ENV HOME /go
 
 # Set permissions to the /go folder (for OpenShift)
